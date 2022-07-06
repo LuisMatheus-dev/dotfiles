@@ -16,6 +16,11 @@ opt.number = true
 opt.showmatch = true
 opt.linebreak = false
 
+vim.cmd([[ hi CursorLineNr guifg=#af00af ]])
+vim.cmd([[ set cursorline ]])
+vim.cmd([[ set cursorlineopt=number ]])
+vim.cmd([[ set numberwidth=5 ]])
+
 ---------------------------------------------
 -- EDITOR
 ---------------------------------------------
